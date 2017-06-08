@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Valentina-Regular';
+    src:url('Valentina-Regular.ttf.woff') format('woff'),
+        url('Valentina-Regular.ttf.svg#Valentina-Regular') format('svg'),
+        url('Valentina-Regular.ttf.eot'),
+        url('Valentina-Regular.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background: #eaeaea;
+    font-family: 'verdana';
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.ecosystem {
+    max-width: 1316px;
+    margin: auto;
+}
+.ecosystem a {
+    color: rgb(84, 84, 84);
+    text-decoration: none;
+}
+.ecosystem {
+    padding: 40px 0;
+}
+.ecosystem-header .ecosystem-logo {
+    float: left;
+    font-size: 39px;
+    font-weight: bold;
+    color: rgb(48, 48, 48);
+}
+.ecosystem-button {
+    float: right;
+    
+}
+.ecosystem-nav {
+    text-align: center;
+    font-size: 0;
+}
+.ecosystem-nav, .ecosystem-nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ecosystem-nav li {
+    font-size: 22px;
+    display: inline-block;    
+}
+.ecosystem-nav a {
+    display: block;
+    padding: 0 21px;
+}
+.ecosystem-carousel {
+    max-width: 1172px;
+    text-align: center;
+    margin: auto;
+}
+.ecosystem-carousel li {
+    font-size: 0;
+}
+.ecosystem-carousel ul, .ecosystem-carousel li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ecosystem-card {
+    font-size: 14px;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: 100% 0;
+    padding: 332px 3.6% 3.6% 3.6%;
+    display: inline-block;
+    width: 22.5%;
+    border-radius: 14px;
+    margin: 0 15px;
+    position: relative;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .4);
+    transition: box-shadow .1s ease-in, background-size .4s ease;
+}
+.ecosystem-card:nth-child(1) {
+    background-color: #bed7d4;
+}
+.ecosystem-card:nth-child(3) {
+    background-color: #d2d0cb;
+}
+.ecosystem-card:hover {
+    box-shadow: 0px 20px 60px 20px rgba(0, 0, 0, .4);
+    z-index: 1;
+    background-size: 100% auto;
+}
