@@ -30,8 +30,8 @@
             There is only you and your camera. The limitaions in your photography are in
 yourself, for what we see is what we are.
         </p>
-        <div class="ecosystem-carousel">
-            <ul>
+        <div class="ecosystem-carousel flexslider">
+            <ul class="slides">
                 <li>
                     <div style="background-image: url(img/headphones.png)" class="ecosystem-card">
                         <h3 class="ecosystem-card-subtitle">Design</h3>
@@ -71,5 +71,17 @@ yourself, for what we see is what we are.
             <div class="ecosystem-arrow"></div>
         </footer>
     </article>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://flexslider.woothemes.com/js/jquery.flexslider.js"></script>
+    <script>
+        (function() {
+            $(window).load(function() {
+                var $flexslider = $('.flexslider');
+                $flexslider.flexslider({
+                    animation: "slide"
+                });
+            });
+        })();
+    </script>
 </body>
 </html>
