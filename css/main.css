@@ -19,7 +19,8 @@ body {
 .ecosystem {
     max-width: 1316px;
     margin: auto;
-    color: rgb(84,84,84)
+    color: rgb(84,84,84);
+    padding: 70px 0;
 }
 .ecosystem a {
     text-decoration: none;
@@ -27,13 +28,11 @@ body {
 .ecosystem-logo {
     color: rgb(48, 48, 48);
 }
-.ecosystem {
-    padding: 40px 0;
-}
 .ecosystem-header .ecosystem-logo {
     float: left;
     font-size: 39px;
     font-weight: bold;
+    margin-left: -4px;
 }
 .ecosystem-button {
     float: right;
@@ -78,7 +77,8 @@ body {
 .ecosystem-carousel {
     max-width: 1172px;
     text-align: center;
-    margin: 50px auto 80px;
+    margin: auto;
+    position: relative;
 }
 .ecosystem-carousel li {
     font-size: 0;
@@ -110,7 +110,7 @@ body {
     background-color: #d2d0cb;
 }
 .ecosystem-card:hover {
-    box-shadow: 0px 20px 60px 20px rgba(0, 0, 0, .4);
+    box-shadow: 0px 10px 40px 10px rgba(0, 0, 0, .4);
     z-index: 1;
     background-size: 100% auto;
 }
@@ -154,6 +154,14 @@ body {
     -moz-border-radius: 20px;
     border-radius: 20px;
     margin-bottom: 5px;
+}
+.flex-viewport {
+    padding: 50px 0;
+}
+ol.flex-control-nav.flex-control-paging {
+    position: absolute;
+    right: 0px;
+    top: 50%;
 }
 .ecosystem-available span {
     padding-left: 30px;
