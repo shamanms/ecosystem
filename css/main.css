@@ -20,7 +20,7 @@ body {
     max-width: 1316px;
     margin: auto;
     color: rgb(84,84,84);
-    padding: 70px 0;
+    padding: 71px 0;
 }
 .ecosystem a {
     text-decoration: none;
@@ -36,10 +36,12 @@ body {
 }
 .ecosystem-button {
     float: right;
-    padding: 13px 25px;
+    padding: 12px 17px 14px 23px;
     background-color: rgb(117,117,117);
     color: white;
-    border-radius: 18px;
+    border-radius: 25px;
+    font-size: 19px;
+    letter-spacing: 1.1px;
 }
 .ecosystem-nav {
     text-align: center;
@@ -57,22 +59,25 @@ body {
 }
 .ecosystem-nav a {
     display: block;
-    padding: 0 21px;
+    padding: 10px 21px;
     color: rgb(48,48,48);
 }
 .ecosystem-headline {
     text-align: center;
     font-family: 'Valentina-Regular';
-    font-size: 54px;
+    font-size: 60px;
     color: #000;
     font-weight: normal;
+    margin-top: 55px;
+    margin-bottom: 14px;
 }
 .ecosystem-headline+p {
     margin: auto;
     text-align: center;
     font-size: 22px;
     max-width: 860px;
-    color: 
+    line-height: 1.7;
+    
 }
 .ecosystem-carousel {
     max-width: 1172px;
@@ -94,7 +99,7 @@ body {
     background-repeat: no-repeat;
     background-size: 80% auto;
     background-position: 100% 0;
-    padding: 332px 3.6% 3.6% 3.6%;
+    padding: 332px 3.6% 4.6% 3.6%;
     display: inline-block;
     width: 22.5%;
     border-radius: 14px;
@@ -117,15 +122,21 @@ body {
 .ecosystem-card-subtitle {
     font-size: 10px;
     text-transform: uppercase;
+    margin: 1px;
+    letter-spacing: 2px;
 }
 .ecosystem-card-title {
     font-size: 28px;
     font-family: 'Valentina-Regular';
     color: black;
     font-weight: normal;
+    margin: 9px;
+    letter-spacing: 1.4px;
 }
 .ecosystem-card-title+p {
     font-size: 18px;
+    margin: 12px 0 40px;
+    line-height: 1.6;
 }
 .ecosystem-available {
     font-size: 22px;
@@ -137,6 +148,7 @@ body {
     text-transform: uppercase;
     padding: 15px 70px;
     letter-spacing: 1px;
+    background-color: rgb(48,48,48);
 }
 .flex-control-paging li a {
     width: 11px;
@@ -160,11 +172,23 @@ body {
 }
 ol.flex-control-nav.flex-control-paging {
     position: absolute;
-    right: 0px;
-    top: 50%;
+    right: -57px;
+    top: 24.9%;
+}
+.flex-control-paging li a {
+    width: 14px;
+    height: 14px;
+    margin-bottom: 19px;
+    background-color: rgba(141,141,141,0.99)
+}
+.flex-control-nav a.flex-active {
+    background: rgba(64,64,64,.9);
+}
+footer {
+    padding-top: 34px;
 }
 .ecosystem-available span {
-    padding-left: 30px;
+    padding-left: 20px;
     position: relative;
 }
 .ecosystem-apple:before {
@@ -173,7 +197,8 @@ ol.flex-control-nav.flex-control-paging {
     height: 23px;
     background: url(../img/apple-logo.png) no-repeat;
     position: absolute;
-    left: 5px;
+    left: -2px;
+    top: 2px;
 }
 .ecosystem-arrow {
     width: 27px;
@@ -181,6 +206,7 @@ ol.flex-control-nav.flex-control-paging {
     background: url(../img/arrow-down.png) no-repeat 0 0;
     cursor: pointer;
     margin: auto;
+    display: block;
 }
 .ecosystem-download {
     border-radius: 50%;
@@ -189,5 +215,8 @@ ol.flex-control-nav.flex-control-paging {
     padding: 0;
     background-image: url(../img/arrow.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: 12px 9px;
+    margin-top: -13px;
+    position: relative;
+    right: -1px;
 }
